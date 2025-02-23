@@ -33,7 +33,7 @@ public class image {
 	}
 	@Override
 	public String toString() {
-		return "Height: "+imgHeight + " Width: "+imgHeight+" Colour: "+colourCode;
+		return "Height: "+imgHeight + " Width: "+imgWidth+" Colour: "+colourCode;
 	}
 	
 }
