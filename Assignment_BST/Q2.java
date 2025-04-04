@@ -36,7 +36,5 @@ public class Q2 {
 		tree.root= tree.createTree(arr, 0, n-1);
 		System.out.println("INORDER TRAVERSAL of constructed BST: ");
 		tree.inOrderTraversal(root);
-		
-	}
-
+		}
 }
