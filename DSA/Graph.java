@@ -53,8 +53,9 @@ class Graph1<T>{
 			builder.append(v.toString()+": ");
 			for(T w : map.get(v)) {
 				builder.append(w.toString()+" ");
-				builder.append("\n");
 			}
+		
+		builder.append("\n");
 		}
 		return (builder.toString());
 	}
@@ -70,16 +71,16 @@ public class Graph {
 		graph.addNewEdege(1, 3, true);
 		graph.addNewEdege(1, 4, true);
 		graph.addNewEdege(2, 3, true);
-		graph.addNewEdege(2, 4, true);
+		graph.addNewEdege(2, 4, true); 
 		graph.addNewEdege(3, 0, true);
 		graph.addNewEdege(2, 0, true);
-		System.out.println("Adjancency List for the graph:\n"+graph.toString());
+		System.out.println("Adjancency List for the graph: "+graph.toString());
 		graph.countVertices();
 		graph.countEdge(true);
 		graph.containEdge(3, 4);
 		graph.containEdge(2, 4);
 		graph.containsVertex(3);
 		graph.containsVertex(5);
+		
 	}
-
 }
